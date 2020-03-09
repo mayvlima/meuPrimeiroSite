@@ -1,0 +1,134 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+    margin: 0;
+}
+
+header{
+    border-bottom: 1px solid black;
+    overflow: hidden      
+}
+
+header *{
+    display: inline-block;    
+}
+
+#logo{
+    overflow: hidden;
+}
+
+#logo *{
+    float: left;
+}
+
+#logo h1{
+    font-size: 16px;
+   margin-top: 20px;    
+}
+
+#logo img{
+    width: 70px;   
+    margin-top: 0px;    
+}
+
+nav{
+    float: right;
+    margin-top: 0px;
+    margin-left: 25px;
+}
+
+nav ul li{
+    width: 120px;
+    text-align: center;
+    
+}
+
+
+#banner{    
+    text-align: center;
+    height: 500px;
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#banner p{
+    margin: 0;
+    padding-top: 240px;
+}
+
+#banner h2{
+    text-transform: uppercase;
+}
+
+#botao{
+    padding: 10px 24px;
+    border-radius: 12px;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: #5f4a90;
+    color: white;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+
+.box{
+    width: 327px;
+    height: 300px;
+    float: left;
+    margin: 20px;
+    background-color: red;    
+}
+
+section{
+    overflow: hidden;
+    text-align: center;
+}
+
+.linha{
+    width: 1104px;
+    margin: 0 auto;
+}
+
+#box1{
+    background-image: url('../img/product-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box2{
+    background-image: url('../img/product-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box3{
+    background-image: url('../img/product-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box4{
+    background-image: url('../img/product-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box5{
+    background-image: url('../img/product-5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box6{
+    background-image: url('../img/product-6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buttonbox{
+    text-transform: uppercase;
+    margin-top: 250px;
+    padding: 10px 30px;
+    font-size: 1em;
+}
